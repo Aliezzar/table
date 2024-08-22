@@ -1,0 +1,51 @@
+table {
+    border-collapse: collapse;
+  border: 4px solid rgb(114, 0, 0);
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+  margin: auto;
+  padding: 0;
+  text-align: center;
+}
+
+.t-warna {
+    color: white;
+}
+
+img {
+    height: 240px;
+    display: block;
+}
+
+th,
+td {
+  border: 1px solid rgb(182, 3, 3);
+  padding: 8px 10px;
+}
+
+td:last-of-type {
+  text-align: center;
+}
+
+tbody > tr:nth-of-type(even) {
+  background-color: rgb(237 238 242);
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+#background-video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+ }
+
